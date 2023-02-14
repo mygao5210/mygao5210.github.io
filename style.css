@@ -41,7 +41,7 @@
 }
 
 .rose {
-    margin: auto;
+   
     height: 400px;
     width: 200px;
     position: absolute;
@@ -61,11 +61,11 @@
     width: 100%;
 }
 .wishes>div:first-child {
-    top: 5%;
+    top: 20%;
     transition: transform 4s linear;
 }
 .wishes>div:nth-child(2) {
-    top: 5%;
+    top: 20%;
     right: 0%;
     transition: transform 4s linear;
 }
