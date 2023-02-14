@@ -45,6 +45,9 @@
     height: 400px;
     width: 200px;
     position: relative;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .wishes{
     width: 100%;
