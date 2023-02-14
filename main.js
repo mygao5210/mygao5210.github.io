@@ -1,6 +1,14 @@
 let html = document.querySelector("#html-text");
 let style = document.querySelector("#styleText");
 
+let audio = document.querySelector('audio');
+audio.play()
+
+document.addEventListener('WeixinJSBridgeReady', () => {
+	audio.play()
+}, false)
+
+
 let originalString = `先画花的茎
 .stem {
     position: absolute;
