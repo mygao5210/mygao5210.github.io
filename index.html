@@ -12,8 +12,7 @@
 
 <body>
     <style id="styleText"></style>
-    <audio autoplay="autoplay" loop="loop" preload="auto" controls="controls"
-            src="1.mp3">       
+    <audio autoplay="autoplay" loop="loop" preload="auto" controls="controls" src="1.mp3">
     </audio>
     <div id="wrapper">
         <div class="container">
@@ -51,6 +50,17 @@
         </div>
         <div id="html-text" style="display: none"></div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script>
+        var sound1 = new Howl({
+            //src: ['js/515a_5508_520b_f0cf47930abbbb0562c9ea61707c4c0b.mp3'],
+            src: ['1.mp3'],
+        });
+
+        // 播放音频
+        sound1.play();
+
+    </script>
     <script src="main.js"></script>
 </body>
 
